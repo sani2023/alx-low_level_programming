@@ -2,8 +2,8 @@
 
 /**
  * _isupper - function that check if numbers are 0 - 9
- * @c: An input character
- * Return: 1 if c is uppercase or 0 otherwise
+ * @c: char to be checked
+ * Return: 0 or 1
  */
 int _isdigit(int c)
 {

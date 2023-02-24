@@ -1,1 +1,1 @@
-Code for testing
+Printing remaining days of the month

@@ -1,6 +1,14 @@
 #include <stdio.h>
+#include "main.h"
 
-int main(void) /* main - function that make magic happen */
+
+/**
+ * main - a program that prints a[2] = 98, followed by a new line.
+ *
+ * Return: 0
+ */
+
+int main(void)
 {
 	int n;
 	int a[5];
@@ -16,7 +24,7 @@ int main(void) /* main - function that make magic happen */
 	* - only one statement
 	* - you are not allowed to code anything else than this line of code
 	*/
-	p[5] = 98;
+	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);

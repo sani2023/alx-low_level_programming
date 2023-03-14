@@ -15,5 +15,5 @@ int _strlen(char *s)
 		longi++;
 		s++;
 	}
-	retrun (longi);
+	return (longi);
 }

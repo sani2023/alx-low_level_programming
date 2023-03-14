@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * _puts - Entry point
+ * @str: input char
  * Return: always 0 (Success)
  */
 
@@ -13,8 +13,8 @@ void _puts(char *str)
 
 	while (str[i])
 	{
-		_putchar(str[i])
+		_putchar(str[i]);
 			i++;
 	}
-	_puchar('\n');
+	_putchar('\n');
 }
